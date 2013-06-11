@@ -1,10 +1,10 @@
+@-moz-document domain("wiki.cdlug.org") {
 .dokuwiki a.wikilink1,
 a:link, a:visited,
 #dw__toc ul li a
 {
-  color:#000;
+  color:#000 !important;
 }
-
 .dokuwiki div.breadcrumbs a,
 .bchead, .bcsep,
 .breadcrumbs div.trace,
@@ -14,80 +14,59 @@ a:link, a:visited,
 #dokuwiki__footer div.license,
 #dokuwiki__footer div.license a
 {
-  color:#ccc;
-  border:0;
-}
-
-.dokuwiki div.breadcrumbs
-{
- /* border-bottom:1px solid #ccc;*/
-}
-
-a:link:hover, a:visited:hover, 
-a:link:focus, a:visited:focus, 
-a:link:active, a:visited:active,
-.dokuwiki a.wikilink1:hover,
-a:link, a:visited:hover,
-.dokuwiki div.breadcrumbs a:hover,
-.dokuwiki a.wikilink1:focus,
-a:link, a:visited:focus,
-.dokuwiki div.breadcrumbs a:focus,
-#dw__toc ul li a:hover,
-#dw__toc ul li a:focus,
-#dw__toc ul li a:active,
-{
-  text-decoration: underline;
+  color:#ccc !important;
+  border:0 !important;
 }
 
 *,
 div.page *
 {
-  font-size: 16px;
-  color:#000;
+  font-size: 16px !important;
+  color:#000 !important;
 }
-
 
 #dokuwiki__site,
 body,
 #dokuwiki__sitetools form.search input.edit
 {
-  background-color: #999;
+  background-color: #999 !important;
 }
 
 .dokuwiki div.page,
 .dokuwiki .pageId span
 {
-  border: 1px solid #555;
-  box-shadow: 0 0 .9em #555;
-  border-radius: 5px;
+  border: 1px solid #555 !important;
+  box-shadow: 0 0 .9em #555 !important;
+  border-radius: 5px !important;
 }
 
-
 .dokuwiki .pageId span {
-border-bottom-left-radius: 0;
-border-bottom-right-radius: 0;
-  border-bottom:0;
+border-bottom-left-radius: 0 !important;
+border-bottom-right-radius: 0 !important;
+border-bottom:0 !important;
 }
 
 .dokuwiki div.breadcrumbs div.trace{
   border:0;
 }
 
+
 input.button, 
 li.catlist_addpage button.button,
 input[type=submit], input.button, a.button, button, .qq-upload-button
 {
   padding: 5px 12px !important;
-  font-size: 75%;
-  border: 1px solid #555;
-  background:none;
-  background-color: #Fefefe;
+  font-size: 75% !important;
+  border: 1px solid #555 !important;
+  background:none !important;
+  background-color: #fefefe !important;
 }
 
+input[type="submit"]:hover,
 input.button:hover, 
 li.catlist_addpage button.button:hover
 {
-background-color: #eee;
+background-color: #eee !important;
 }
 
 div#dokuwiki__header,
@@ -99,4 +78,5 @@ div#dokuwiki__header:hover,
 div#dokuwiki__footer:hover
 {
   opacity: 99 !important;
+}
 }
