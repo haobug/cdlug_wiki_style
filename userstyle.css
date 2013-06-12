@@ -80,3 +80,7 @@ div#dokuwiki__footer:hover
   opacity: 99 !important;
 }
 }
+
+.dokuwiki textarea.edit {
+    font-family: monospace,Consolas,"Andale Mono WT","Andale Mono","Bitstream Vera Sans Mono","Nimbus Mono L",Monaco,"Courier New";
+}
