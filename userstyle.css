@@ -13,7 +13,7 @@ a:link, a:visited,
 #dokuwiki__footer div.license,
 #dokuwiki__footer div.license a
 {
-  color:#ccc !important;
+  color:#eee !important;
   border:0 !important;
 }
 
@@ -43,6 +43,16 @@ body,
 border-bottom-left-radius: 0 !important;
 border-bottom-right-radius: 0 !important;
 border-bottom:0 !important;
+}
+
+
+#npd_create_button:visited,
+#npd_create_button:link {
+text-decoration: none !important;
+color: #2B73B7 !important;
+}
+.success {
+color:#111 !important;
 }
 
 .dokuwiki div.breadcrumbs div.trace{
