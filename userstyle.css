@@ -68,17 +68,6 @@ li.catlist_addpage button.button:hover
 background-color: #eee !important;
 }
 
-div#dokuwiki__header,
-div#dokuwiki__footer
-{
-  opacity: 0;
-}
-div#dokuwiki__header:hover,
-div#dokuwiki__footer:hover
-{
-  opacity: 99 !important;
-}
-
 .dokuwiki textarea.edit {
     font-family: monospace,Consolas,"Andale Mono WT","Andale Mono","Bitstream Vera Sans Mono","Nimbus Mono L",Monaco,"Courier New";
 }
