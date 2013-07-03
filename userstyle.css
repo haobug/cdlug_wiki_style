@@ -51,6 +51,7 @@ border-bottom:0 !important;
 text-decoration: none !important;
 color: #2B73B7 !important;
 }
+
 .success {
 color:#111 !important;
 }
@@ -78,6 +79,7 @@ li.catlist_addpage button.button:hover
 background-color: #eee !important;
 }
 
+pre,
 .dokuwiki textarea.edit {
-    font-family: monospace,Consolas,"Andale Mono WT","Andale Mono","Bitstream Vera Sans Mono","Nimbus Mono L",Monaco,"Courier New";
+    font-family: Terminus, monospace,Consolas,"Andale Mono WT","Andale Mono","Bitstream Vera Sans Mono","Nimbus Mono L",Monaco,"Courier New" !important;
 }
