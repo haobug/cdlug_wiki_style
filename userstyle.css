@@ -28,14 +28,14 @@ div.page *
 body,
 #dokuwiki__sitetools form.search input.edit
 {
-  background-color: #999 !important;
+  background-color: #111 !important;
 }
 
 .dokuwiki div.page,
 .dokuwiki .pageId span
 {
-  border: 1px solid #555 !important;
-  box-shadow: 0 0 .9em #555 !important;
+  border: 1px solid #333 !important;
+  box-shadow: 0 0 .9em #333 !important;
   border-radius: 5px !important;
 }
 
@@ -77,7 +77,6 @@ div#dokuwiki__header:hover,
 div#dokuwiki__footer:hover
 {
   opacity: 99 !important;
-}
 }
 
 .dokuwiki textarea.edit {
